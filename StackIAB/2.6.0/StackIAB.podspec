@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'StackOpenMeasure' do |ss|
     ss.resources = 'StackOpenMeasure.bundle'
     ss.vendored_frameworks = 'StackOpenMeasure.xcframework' 
-    ss.dependency 'OMSDK_Appodeal', '~> 1.4.12'
+    ss.dependency 'OMSDK_Appodeal', '~> 1.5.0'
   end
 
   spec.subspec 'StackMRAIDKit' do |ss| 
